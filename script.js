@@ -1,10 +1,20 @@
-function comments() {
-  var comment = $('#comment-content').val();
-  $("#result").append( "<ul><li>" + comment + "</li></ul>" );
-}
+var fancyText = document.getElementById ('fancy');
+var intervalTime = 150;
+var initialPause = 1000;
+var callbackPause = 500;
 
-function setup() {
-  $("#submit_button").click(comments);
-}
+function deleteContent(callback) {
 
-$(document).ready(setup)
+    var intervalId = setInterval(function() {
+        if (fancyText.innerHTML.length == 0) {
+            clearInterval(intervalId);
+
+            if (callback) {
+                setTimeout(callback, callbackPause);
+            }
+        }
+
+        fancyText.innerHTML = fancyText.innerHTML.substring(0, fancyText.innerHTML.length - 1);
+    }, intervalTime);
+
+}
