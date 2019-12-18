@@ -42,7 +42,7 @@ setTimeout(function() {
             deleteContent(function() {
                 addContent("awesome.", function() {
                     deleteContent(function() {
-                        addContent("Dagm");
+                        addContent("Dagm.");
                     })
                 });
             });

@@ -13,6 +13,10 @@ h1, h2, h3 {
     font-family: 'Slabo 27px', sans-serif;
 }
 
+h1 {
+    margin-bottom: 2%;
+}
+
 /* Apply this to the child of this element */
 
 #navbar > ul {
@@ -43,7 +47,8 @@ a {
 }
 
 img {
-    border-radius: 50%;
+    border-radius: 40%;
+    margin-bottom: 1%;
 }
 
 #intro {
@@ -55,6 +60,54 @@ img {
 }
 
 #fancy {
-    color: #FFB400;
-    text-decoration: underline;
+    color: #7f8c8d;
+}
+
+.icon-bar {
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: black;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  /* background-color: #ffffff; */
+}
+
+.facebook {
+  /* background: #3B5998; */
+/* background: #111111; */
+}
+
+.twitter {
+  /* background: #55ACEE; */
+  /* background: #111111; */
+}
+
+.instagram {
+  /* background: #111111; */
+}
+
+.linkedin {
+  /* background: #007bb5; */
+  /* background: #111111; */
+}
+
+.youtube {
+  /* background: #bb0000; */
+  /* background: #111111; */
+}
+
+.github {
+
 }
