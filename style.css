@@ -16,6 +16,7 @@ h1, h2, h3 {
 #navbar > ul {
     display: block;
     text-align-last: end;
+    margin: 0px 0px 0px 0px;
 }
 
 #navbar > ul > li {
