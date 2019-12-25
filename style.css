@@ -13,24 +13,14 @@ h1, h2, h3 {
     font-family: 'Slabo 27px', sans-serif;
 }
 
-h1 {
-    margin-bottom: 2%;
-}
-
-/* Apply this to the child of this element */
-
 #navbar > ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    width: 100%;
-    text-align: center;
+    display: block;
+    text-align-last: end;
 }
 
 #navbar > ul > li {
-    margin: 0 2em;
+    margin-right: 2%;
     display: inline-block;
-    float: right;
     border-bottom: solid #7f8c8d 2px;
     position: relative;
 }
@@ -53,6 +43,7 @@ img {
 
 #intro {
     font-size: 4em;
+    display: block;
 }
 
 #about {
@@ -79,14 +70,9 @@ img {
   font-size: 20px;
 }
 
-/* Style the social media icons with color, if you want */
-.icon-bar a:hover {
-  /* background-color: #ffffff; */
-}
-
 .facebook {
   /* background: #3B5998; */
-/* background: #111111; */
+  /* background: #111111; */
 }
 
 .twitter {
@@ -106,8 +92,4 @@ img {
 .youtube {
   /* background: #bb0000; */
   /* background: #111111; */
-}
-
-.github {
-
 }
